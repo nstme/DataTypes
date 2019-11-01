@@ -9,8 +9,4 @@ const countTypesInArray = array => {
   return types;
 };
 
-
-// const arr = [[], [{}], null, undefined];
-// console.dir(countTypesInArray(arr));
-
 module.exports = { countTypesInArray };
