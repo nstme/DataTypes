@@ -1,5 +1,10 @@
 'use strict';
+let a = undefined;
 
-const fn = null;
+function fn(x) {
+  return x + a;
+}
+
+a = 1;
 
 module.exports = { fn };
